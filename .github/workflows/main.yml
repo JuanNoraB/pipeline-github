@@ -27,7 +27,7 @@ jobs:
           ${{ runner.os }}-node-
 
     - name: Install dependencies
-      run: npm Install
+      run: npm install
 
     - name: Run tests
       run: npm run test
